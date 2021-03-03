@@ -3,7 +3,7 @@ Copy and paste the code below not commented out into the console in your browser
 the below code into the console, press "Enter", and let it work!*/
  
 var word_idx = 0;
-var interval_per_word = 250; // in milliseconds (the smaller the number, the faster it types. Cannot be 0, as that makes it undefined)
+var interval_per_word = 200; // in milliseconds (the smaller the number, the faster it types. Cannot be 0, as that makes it undefined)
 function speedtype(){
     if(word_idx<words.length){
         $('#inputfield').val(words[word_idx] + ' ');
