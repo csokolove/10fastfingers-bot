@@ -7,7 +7,7 @@ You should have *some* knowledge of development terms, and the basic gist of wha
 # Instructions
 
 1. Copy the code from the [bot.js](https://github.com/csokolove/10fastfingers-bot/blob/main/bot.js) file. (The only stuff you need is the code not commented out.)
-2. Head to https://https://10fastfingers.com/, and select one of the typing activities.
+2. Head to https://10fastfingers.com/, and select one of the typing activities.
 3. Once on the activity of your choice, do **NOT** type anything. Open your console in your browser, and paste the code you had copied before from the `bot.js` file; then press "Enter"
 
 The base `interval_per_word` is 250ms, which esentially means that one word will be typed every 250ms. You can change this, by simply replacing the `250`, with the amount of your choice. The smaller the number, the faster words are "typed", the larger, the slower words are "typed"
